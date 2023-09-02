@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			@font-face {
+				font-family: se-nanumgothic;
+				font-weight: 400;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumgothic;
+				font-weight: 700;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-bold.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-bold.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-bold.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanummyeongjo;
+				font-weight: 400;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanummyeongjo;
+				font-weight: 700;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-bold.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-bold.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummyeongjo-bold.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumbarungothic;
+				font-weight: 400;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumbarungothic;
+				font-weight: 700;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-bold.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-bold.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbarungothic-bold.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumsquare;
+				font-weight: 400;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumsquare;
+				font-weight: 700;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanummaruburi;
+				font-weight: 400;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-regular.woff2?20211018") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-regular.woff?20211018") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-regular.ttf?20211018") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanummaruburi;
+				font-weight: 700;
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-bold.woff2?20211018") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-bold.woff?20211018") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanummaruburi-bold.ttf?20211018") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumdasisijaghae;
+				font-weight: "400";
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumdasisijaghae-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumdasisijaghae-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumdasisijaghae-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumbareunhipi;
+				font-weight: "400";
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbareunhipi-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbareunhipi-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumbareunhipi-regular.ttf") format("truetype")
+			}
+
+			@font-face {
+				font-family: se-nanumuriddalsongeulssi;
+				font-weight: "400";
+				src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumuriddalsongeulssi-regular.woff2") format("woff2"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumuriddalsongeulssi-regular.woff") format("woff"),url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumuriddalsongeulssi-regular.ttf") format("truetype")
+			}
+
+			body {
+				width: 300px;
+			}
+
+			.serif {
+				font-family: se-nanummyeongjo, arial, \\B098\B214\BA85\C870, nanummyeongjo, serif, simsun;
+			}
+
+			.hipi {
+				font-family: se-nanumbareunhipi, arial, \\BC14\B978\D788\D53C, nanumbareunhipi, sans-serif, Meiryo;
+			}
+
+			.square {
+				font-family: se-nanumsquare, arial, \\B098\B214\ACE0\B515, nanumgothic, sans-serif, Meiryo;
+			}
+
+			.tryagain {
+				font-family: se-nanumdasisijaghae, arial, \\B2E4\C2DC\C2DC\C791\D574, nanumdasisijaghae, sans-serif, Meiryo;
+			}
+
+			.system {
+				font-weight: 500;
+				font-style: italic;
+			}
+
+			.gothic {
+				font-family: se-nanumgothic, arial, \\B098\B214\ACE0\B515, nanumgothic, sans-serif, Meiryo;
+			}
+
+			.barungothic {
+				font-family: se-nanumbarungothic, arial, \\B098\B214\BC14\B978\ACE0\B515, nanumbarungothic, sans-serif, Meiryo;
+			}
+
+			.buri {
+				font-family: se-nanummaruburi, arial, \\B9C8\B8E8\BD80\B9AC, nanummaruburi, sans-serif, Meiryo;
+			}
+
+			.hand {
+				font-family: se-nanumuriddalsongeulssi, arial, \\C6B0\B9AC\B538\C190\AE00\C528, nanumuriddalsongeulssi, sans-serif, Meiryo;
+			}
+
+			.title {
+				font-weight: 700;
+				font-style: italic;
+				color: #444;
+			}
+
+			#saved {
+				color: green;
+			}
+
+			.under {
+				text-decoration: underline;
+			}
+
+			@keyframes show {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+		</style>
+
+		<script src="popup.js" defer></script>
+
+		<title>NanumGothic</title>
+	</head>
+	<body>
+		<h1><!--
+			--><span class="serif">N</span><!-- span 여백을 없애기 위한 주석
+			--><span class="hipi">a</span><!--
+			--><span class="system">n</span><!--
+			--><span class="square under">u</span><!--
+			--><span class="tryagain">m</span>
+			<span class="gothic title">Gothic</span>
+		</h1>
+		<p class="gothic">엔트리 노팁, 묻답 글꼴을 나눔고딕으로 바꾸는 확장</p>
+		<label for="select">글꼴 선택: </label>
+		<select id="select">
+			<option value="system">기본서체</option>
+			<option value="nanumgothic" class="gothic">나눔고딕</option>
+			<option value="nanummyeongjo" class="serif">나눔명조</option>
+			<option value="nanumbarungothic" class="barungothic">나눔바른고딕</option>
+			<option value="nanumsquare" class="square">나눔스퀘어</option>
+			<option value="nanummaruburi" class="buri">마루부리</option>
+			<option value="nanumdasisijaghae" class="tryagain">다시시작해</option>
+			<option value="nanumbareunhipi" class="hipi">바른히피</option>
+			<option value="nanumuriddalsongeulssi" class="hand">우리딸손글씨</option>
+		</select>
+		<div id="saved" style="visibility: hidden">저장이 완료되었습니다!</div>
+	</body>
+</html>
