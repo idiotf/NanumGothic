@@ -1,7 +1,7 @@
 {
 	"name": "NanumGothic",
 	"description": "엔트리 노팁, 묻답 글꼴을 나눔고딕으로 바꾸는 확장",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"manifest_version": 3,
 	"content_scripts": [
 		{
